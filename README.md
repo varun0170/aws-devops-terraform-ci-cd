@@ -1,12 +1,12 @@
-AWS DevOps Infrastructure Automation with Terraform & CI/CD
-📌 Overview
+## AWS DevOps Infrastructure Automation with Terraform & CI/CD
+## 📌 Overview
 
 This project demonstrates the design and implementation of a production-ready AWS infrastructure using Terraform (Infrastructure as Code) and GitHub Actions (CI/CD).
 
 The goal of this project is to showcase scalable, automated, and repeatable cloud infrastructure following industry best practices.
 It reflects real-world DevOps workflows used by global engineering teams to reduce manual effort, improve reliability, and enable faster deployments.
 
-🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 The infrastructure consists of the following components:
 
@@ -36,7 +36,7 @@ Public Subnet
 Private Subnets
    └── RDS (PostgreSQL)
 
-🧱 Project Structure
+## 🧱 Project Structure
 aws-devops-terraform-ci-cd/
 ├── README.md
 ├── .gitignore
@@ -62,7 +62,7 @@ aws-devops-terraform-ci-cd/
     └── workflows/
         └── terraform-ci.yml
 
-🔑 Key Features
+## 🔑 Key Features
 ✅ Modular Infrastructure as Code
 
 Reusable Terraform modules for:
@@ -144,7 +144,7 @@ terraform apply
 
 ⚠️ Note: This will create real AWS resources and may incur costs.
 
-🌍 Why This Project Matters
+## 🌍 Why This Project Matters
 
 In modern cloud environments, manual infrastructure provisioning does not scale.
 
@@ -164,7 +164,7 @@ Enterprise platforms
 
 Globally distributed engineering teams
 
-🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 AWS Cloud Architecture
 
@@ -176,7 +176,7 @@ DevOps Automation
 
 Infrastructure Design & Documentation
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 
 Add security groups and IAM roles
 
@@ -188,7 +188,7 @@ Integrate monitoring and logging
 
 Extend to ECS / EKS deployments
 
-👤 Author
+## 👤 Author
 
 Varun Nalluri
 DevOps Engineer | AWS Certified Solutions Architect
