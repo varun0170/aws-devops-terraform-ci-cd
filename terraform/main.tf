@@ -16,4 +16,14 @@ module "ec2" {
   ec2_instance_type = var.ec2_instance_type
   subnet_id        = module.vpc.public_subnet_ids[0]
 }
+module "rds" {
+  source            = "../modules/rds"
+  rds_instance_type  = var.rds_instance_type
+  private_subnets    = module.vpc.private_subnet_ids
+  db_name            = "mydb"
+  db_username        = "admin"
+  db_password        = "Password123!"
+  security_group_ids = []
+}
+
 
