@@ -11,3 +11,9 @@ module "vpc" {
   public_subnets  = var.public_subnets
   private_subnets = var.private_subnets
 }
+module "ec2" {
+  source           = "../modules/ec2"
+  ec2_instance_type = var.ec2_instance_type
+  subnet_id        = module.vpc.public_subnet_ids[0]
+}
+
